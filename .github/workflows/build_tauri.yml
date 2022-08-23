@@ -46,7 +46,7 @@ jobs:
       - name: Initialize Tauri for Linux
         if: matrix.platform == 'ubuntu-latest' || matrix.platform == 'macos-latest'
         run: |
-          npm run tauri init --app-name "$APP_NAME" --window-title "$WINDOW_NAME" --dist-dir $DIST_DIR --dev-path $DEV_PATH
+          yarn tauri init --app-name "$APP_NAME" --window-title "$WINDOW_NAME" --dist-dir $DIST_DIR --dev-path $DEV_PATH
 
       - name: Initialize Tauri for Windows
         if: matrix.platform == 'windows-latest'
