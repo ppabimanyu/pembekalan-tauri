@@ -1,14 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script src="style.js"></script>
 </head>
-<body>
-
-    <h1>Testing!!!</h1>
-    
+<body class="bg-gray-400 container mx-auto px-64 py-24 ">
+    <div class="bg-white">
+        <header class="flex bg-slate-800 items-center">
+          <img src="profile.jpeg" alt="" class="w-72 h-48 object-cover">
+          <div class="mx-8 w-full pt-4">
+              <p class="text-4xl pb-3 text-white">Putra Prassiesa Abimanyu</p>
+              <p class="text-2xl pb-5 text-gray-400">Software Developer</p>
+              <div class="flex justify-start">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                  </svg>
+                  <p class="text-md pr-16 text-gray-400">ppabimanyu@gmail.com</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                  <p class="text-md pr-16 text-gray-400">089699728900</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                    </svg>
+                  <p class="text-md pr-16 text-gray-400">Ambulu, 68172 Jember</p>
+              </div>
+          </div>
+        </header>
+        <div class="grid grid-cols-3">
+          <section class="col-span-2 pr-4 border-r-2 border-grey-500 p-16">
+              <p class="text-3xl pb-3">Profile</p>
+              <p class="text-justify border-b-2 border-grey-500 pb-4">Someone who loves coffee, technology and learning something new.
+                  Still learning on mobile development using flutter, currently learning
+                  back end development using go and front end using react. I have
+                  ambition to share knowledge with others and solve problems.</p>
+              <p class="text-3xl pt-4 pb-3">Education</p>
+              <div class="flex justify-between border-b-2 border-grey-500 pb-4">
+                  <div>
+                      <p>Diploma of Education, Information
+                          Technology</p>
+                      <p class="text-gray-500">Politeknik Negeri Jember</p>
+                  </div>
+                  <p>Aug 2019 - Present</p>
+              </div>
+              <p class="text-3xl pt-4 pb-3">Licenses & certifications</p>
+              <div class="flex justify-between">
+                  <div>
+                      <p>Backend Engineering Bootcamp
+                          Ruangguru X Kampus Merdeka</p>
+                      <p class="text-gray-500">Ruangguru</p>
+                  </div>
+                  <p>Juli 2022</p>
+              </div>
+              <div class="flex justify-between">
+                  <div>
+                      <p>ASIA FORWARD - Landing AI Developer
+                          Learning Series 1</p>
+                      <p class="text-gray-500">Alibaba</p>
+                  </div>
+                  <p>Oct 2021</p>
+              </div>
+              <div class="flex justify-between">
+                  <div>
+                      <p>Cloud Practitioner Essentials (Belajar
+                          Dasar AWS Cloud)</p>
+                      <p class="text-gray-500">Dicoding</p>
+                  </div>
+                  <p>Jul 2021</p>
+              </div>
+              <div class="flex justify-between">
+                  <div>
+                      <p>Architecting on AWS (Membangun
+                          Arsitektur Cloud di AWS)</p>
+                      <p class="text-gray-500">Dicoding</p>
+                  </div>
+                  <p>Jul 2021</p>
+              </div>
+              <div class="flex justify-between">
+                  <div>
+                      <p>Memulai Pemrograman Dengan Dart</p>
+                      <p class="text-gray-500">Dicoding</p>
+                  </div>
+                  <p>Jul 2021</p>
+              </div>
+              <div class="flex justify-between">
+                  <div>
+                      <p>Belajar Membuat Aplikasi Flutter untuk
+                          Pemula</p>
+                      <p class="text-gray-500">Dicoding</p>
+                  </div>
+                  <p>Jul 2021</p>
+              </div>
+              <div class="flex justify-between">
+                  <div>
+                      <p>Belajar Fundamental Front-End Web
+                          Development</p>
+                      <p class="text-gray-500">Dicoding</p>
+                  </div>
+                  <p>Sep 2021</p>
+              </div>
+          </section>
+          <aside class="col-span-1 pl-4 p-16">
+              <p class="text-3xl">Personal details</p>
+              <div class="pt-3">
+                  <p class="text-gray-500">Date of birth</p>
+                  <p>September 28th, 2000</p>
+              </div>
+              <div class="pt-3">
+                  <p class="text-gray-500">Ppalce of birth</p>
+                  <p>Jember</p>
+              </div>
+              <div class="pt-3">
+                  <p class="text-gray-500">Gender</p>
+                  <p>Male</p>
+              </div>
+              <div class="pt-3 pb-4">
+                  <p class="text-gray-500">LinkedIn</p>
+                  <p>https://www.linkedin.com/in/putra-prassiesa-abimanyu-140336213/</p>
+              </div>
+              <p class="text-3xl pt-4 border-t-2 border-grey-500">Skills</p>
+              <p class="pt-4">Golang</p>
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
+              </div>
+              <p class="pt-4">Flutter</p>
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
+              </div>
+              <p class="pt-4">React</p>
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 20%"></div>
+              </div>
+              <p class="pt-4">Web Development</p>
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
+              </div>
+              <p class="text-3xl pt-8">Languages</p>
+              <p class="pt-4">Indonesian</p>
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
+              </div>
+              <p class="pt-4">English</p>
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                  <div class="bg-blue-600 h-2.5 rounded-full" style="width: 40%"></div>
+              </div>
+      
+          </aside>
+        </div>
+        <footer class="p-16">
+          <p>I consent to the processing of my personal data for the purpose of recruitment for the
+              position to which I am applying.</p>
+        </footer>
+      </div>
 </body>
 </html>
