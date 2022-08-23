@@ -1,4 +1,4 @@
-name: 'publish'
+name: "publish"
 
 on:
   push:
@@ -6,18 +6,18 @@ on:
       - release
 
 env:
-  APP_NAME: 'App Name'
-  WINDOW_NAME: 'Your Name'
-  DIST_DIR: '../dist'
-  DEV_PATH: '../dist'
-  CONFIG_PATH: './tauri.myconf.json'
+  APP_NAME: "App Name"
+  WINDOW_NAME: "Your Name"
+  DIST_DIR: "../dist"
+  DEV_PATH: "../dist"
+  CONFIG_PATH: "./tauri.myconf.json"
 
 jobs:
   publish-tauri:
     strategy:
       fail-fast: false
       matrix:
-        platform: [windows-latest]
+        platform: [ubuntu-latest]
 
     runs-on: ${{ matrix.platform }}
     steps:
